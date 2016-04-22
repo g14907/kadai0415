@@ -187,6 +187,7 @@ public class Anagrams extends JFrame {
 
         buttonsPanel.setLayout(new java.awt.GridBagLayout());
 
+        guessButton.setBackground(new Color(255,140,0));
         guessButton.setMnemonic('G');
         guessButton.setText("Guess");
         guessButton.setToolTipText("Guess the scrambled word.");
@@ -197,6 +198,7 @@ public class Anagrams extends JFrame {
         });
         buttonsPanel.add(guessButton, new java.awt.GridBagConstraints());
 
+        nextTrial.setBackground(new Color(255,140,0));
         nextTrial.setMnemonic('N');
         nextTrial.setText("New Word");
         nextTrial.setToolTipText("Fetch a new word.");
