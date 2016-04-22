@@ -32,6 +32,8 @@
 package com.toy.anagrams.ui;
 
 import com.toy.anagrams.lib.WordLibrary;
+
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
@@ -135,6 +137,7 @@ public class Anagrams extends JFrame {
         mainPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(12, 12, 12, 12));
         mainPanel.setMinimumSize(new java.awt.Dimension(297, 200));
         mainPanel.setLayout(new java.awt.GridBagLayout());
+        mainPanel.setBackground(Color.orange);
 
         scrambledLabel.setText("スクランブルワード:");
         gridBagConstraints = new java.awt.GridBagConstraints();
