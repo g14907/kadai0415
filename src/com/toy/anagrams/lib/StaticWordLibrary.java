@@ -176,6 +176,9 @@ final class StaticWordLibrary extends WordLibrary {
     	return shuffleWord;
     }
     
+    public int getComboData(int idx){
+    	return idx;
+    }
     
 
     /**
